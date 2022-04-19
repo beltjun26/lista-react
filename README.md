@@ -1,3 +1,8 @@
+# Initial Setup
+
+Please create .env file from .env.sample
+Note that if the backend ENV variables are not provided it will compel the app to use local storage
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
