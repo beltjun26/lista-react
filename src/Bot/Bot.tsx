@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import * as S from './Bot.styles';
 import { BotObject } from '../App';
-import { saveBots } from '../Api/BotApi';
 import { actionCreators } from '../state';
 import { bindActionCreators } from 'redux';
 import { useDispatch } from 'react-redux';

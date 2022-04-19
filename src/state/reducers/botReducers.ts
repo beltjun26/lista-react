@@ -1,8 +1,7 @@
-import { getBots } from "../../Api/BotApi";
 import { BotObject } from "../../App";
 import { Action } from "../actions";
 
-const initialState = getBots();
+const initialState: BotObject[] = [];
 
 export const botsReducer = (state: BotObject[] = initialState, action: Action) => {
   switch (action.type) {

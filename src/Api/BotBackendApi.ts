@@ -24,7 +24,7 @@ export function addBot(bot: Pick<BotObject, 'name' | 'purpose'>): Promise<BotObj
   });
 }
 
-export async function deletedBot(botId: number): Promise<number> {
+export async function deleteBot(botId: number): Promise<number> {
   return axios.delete(`${backendUrl}/bots/${botId}`)
     .then(response => {
       return response.data.id;
